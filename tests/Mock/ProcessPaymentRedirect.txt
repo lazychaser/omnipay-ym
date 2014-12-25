@@ -1,0 +1,3 @@
+HTTP/1.1 200 OK
+
+{"status": "ext_auth_required","acs_uri": "https://acs.alfabank.ru/acs/PAReq","acs_params": {"MD": "723613-7431F11492F4F2D0","PaReq": "eJxVUl1T2zAQ/CsZv8f6tCR7LmLSGiidJjAldMpTR7XVxAN2gmynSX59JeNAebu9O93u7QkuDvXzZG9dW22bWURiHE1sU2zLqlnPoofV1VRFFxpWG2dtfm+L3lkNC9u2Zm0nVTmLVvn9r7v5d/uS/UkYt4b8tjibUiGVxazICMeSSkmtwBmlhYw="}}

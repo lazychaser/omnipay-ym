@@ -1,0 +1,3 @@
+HTTP/1.1 200 OK
+
+{"status": "success", "invoice_id": "3000130505460"}

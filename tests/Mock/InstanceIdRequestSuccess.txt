@@ -1,0 +1,7 @@
+HTTP/1.1 200 OK
+Date: Wed, 20 Feb 2013 13:54:27 GMT
+Server: Apache
+Connection: close
+Content-Type: text/plain; charset=utf-8
+
+{"status": "success", "instance_id": "1234567890ABCDEF1234567890ABCDEF1234567890ABCDEF1234567890ABCDEF1"}

@@ -1,0 +1,27 @@
+{
+    "name": "omnipay/ym",
+    "type": "library",
+    "description": "Yandex.Money gateway for Omnipay payment processing library",
+
+    "license": "MIT",
+
+    "authors": [
+        {
+            "name": "Alexander Kalnoy",
+            "email": "lazychaser@gmail.com"
+        }
+    ],
+
+    "require": {
+        "omnipay/common": "~2.0"
+    },
+
+    "require-dev": {
+        "omnipay/tests": "~2.0"
+    },
+
+    "autoload": {
+        "psr-4": { "Omnipay\\YM\\": "src/" }
+    }
+
+}
