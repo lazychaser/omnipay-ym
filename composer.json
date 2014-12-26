@@ -22,6 +22,12 @@
 
     "autoload": {
         "psr-4": { "Omnipay\\YM\\": "src/" }
+    },
+
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
     }
 
 }
