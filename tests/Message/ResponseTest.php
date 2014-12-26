@@ -45,6 +45,7 @@ class ResponseTest extends TestCase {
         $this->assertEquals('GET', $response->getRedirectMethod());
         $this->assertEquals('https://example.com?foo=bar&baz=bax', $response->getRedirectUrl());
         $this->assertEquals(null, $response->getRedirectData());
+        $this->assertInstanceOf('Symfony\Component\HttpFoundation\Response', $response->getRedirectResponse());
     }
 
     public function testMoneySource()

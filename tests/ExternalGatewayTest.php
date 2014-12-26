@@ -69,6 +69,17 @@ class ExternalGatewayTest extends GatewayTestCase {
 
         $this->assertTrue($response->isSuccessful());
         $this->assertNotEmpty($response->getTransactionReference());
+        $this->assertFalse($response->isPaymentRefused());
+    }
+
+    public function testProcessRefused()
+    {
+        $this->setMockHttpResponse('ProcessPaymentRefused.txt');
+
+        $response = $this->gateway->processPayment($this->processOptions)->send();
+
+        $this->assertFalse($response->isSuccessful());
+        $this->assertTrue($response->isPaymentRefused());
     }
 
     public function testProcessRedirect()

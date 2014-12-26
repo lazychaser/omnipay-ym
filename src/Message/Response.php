@@ -3,9 +3,10 @@
 namespace Omnipay\YM\Message;
 
 use Omnipay\Common\Message\AbstractResponse as OmnipayAbstractResponse;
+use Omnipay\Common\Message\RedirectResponseInterface;
 use Omnipay\Common\Message\RequestInterface;
 
-class Response extends OmnipayAbstractResponse {
+class Response extends OmnipayAbstractResponse implements RedirectResponseInterface {
 
     /**
      * Operation is not performed, another request is needed.
@@ -54,6 +55,16 @@ class Response extends OmnipayAbstractResponse {
     public function inProgress()
     {
         return $this->data['status'] == self::IN_PROGRESS;
+    }
+
+    /**
+     * Get whether the payment was refused.
+     *
+     * @return bool
+     */
+    public function isPaymentRefused()
+    {
+        return in_array($this->getCode(), array( 'payment_refused', 'authorization_reject' ));
     }
 
     /**
