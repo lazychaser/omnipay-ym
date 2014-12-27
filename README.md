@@ -44,7 +44,7 @@ repository. You can also visit [Yandex.Money API page](https://tech.yandex.ru/mo
 ### Setting up a gateway
 
 ```php
-$gateway = Omniplay::create('YM_External');
+$gateway = Omnipay::create('YM_External');
 
 $gateway->setWalledId('my wallet id'); // The id of the wallet that will receive payments
 $gateway->setInstanceId('my instance id'); // A unique id, see below
