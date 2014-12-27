@@ -6,6 +6,8 @@
 [![Latest Stable Version](https://poser.pugx.org/omnipay/ym/version.png)](https://packagist.org/packages/omnipay/ym)
 [![Total Downloads](https://poser.pugx.org/omnipay/ym/d/total.png)](https://packagist.org/packages/omnipay/ym)
 
+[Russian version](/README-RU.md)
+
 [Omnipay](https://github.com/thephpleague/omnipay) is a framework agnostic, multi-gateway payment
 processing library for PHP 5.3+. This package implements PayPal support for Omnipay.
 
