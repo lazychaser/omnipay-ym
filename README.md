@@ -1,6 +1,10 @@
 # Omnipay: Yandex.Money
 
-Библиотека для приема платежей с помощью пластиковых карт на сайте.
+**Библиотека для приема платежей с помощью пластиковых карт на сайте.**
+
+[![Build Status](https://travis-ci.org/lazychaser/omnipay-ym.png?branch=master)](https://travis-ci.org/lazychaser/omnipay-ym)
+[![Latest Stable Version](https://poser.pugx.org/omnipay/ym/version.png)](https://packagist.org/packages/omnipay/ym)
+[![Total Downloads](https://poser.pugx.org/omnipay/ym/d/total.png)](https://packagist.org/packages/omnipay/ym)
 
 ## Как это работает?
 
